@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "myblocks",
+  "version": "${version}",
+  "name": "MyBlocks",
+  "description": "Add custom blocks with a config file!",
+  "authors": [
+    "Draylar"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/myblocks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "draylar.myblocks.MyBlocks"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.8+build.187",
+    "fabric": "*",
+    "minecraft": "1.15.2"
+  }
+}
